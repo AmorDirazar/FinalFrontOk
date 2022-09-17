@@ -1,0 +1,449 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    width: 100vw;
+}
+
+/***************background color******************************/
+header body{
+    background-color: #F5F5F5;
+}
+.listas h3{
+    background-color: #8B48BF4D;
+}
+.backVioleta{
+    background-color: #8B48BF;
+}
+footer{
+    background-color: black;
+}
+.footerP{
+    color: #8C8C94;
+}
+footer nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.boton4{
+    color: #8B48BF;
+    background-color: #FFFFFF;
+}
+.card{
+    background-color: #FAFAFA;
+}
+button{
+    color: #FFFFFF;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+}
+
+/*** HOVER ***/
+
+.boton1:hover{
+    color: rgba(139, 72, 191, 0.9);
+    background-color: rgba(139, 72, 191, 0.2);
+}
+.boton2:hover{
+    color: rgba(139, 72, 191, 0.9);
+    background-color: rgba(139, 72, 191, 0.2);
+}
+.boton3:hover{
+    color: rgba(139, 72, 191, 0.9);
+    background-color: rgba(139, 72, 191, 0.2);
+}
+.boton4:hover{
+    color: rgba(212, 167, 245, 0.9);
+    background-color: rgba(128, 94, 156, 0.5);
+}
+button.go:hover{
+    color: white;
+    background-color: #232C50;
+}
+
+
+/******************** FONT SIZE / COLOR *********************************/
+header{
+    font-weight: 500;
+    font-size: 13px;
+}
+header nav a{
+    text-decoration: none;
+}
+body{
+    font-weight: 500;
+    font-size: 16px;
+}
+.bienvenida h2{
+    font-weight: 700;
+    font-size: 46px;
+    color: #232C50;
+}
+.listas h3{
+    font-size: 1rem;
+}
+.listas p{
+    font-weight: 500;
+    color: #B3B2B7;
+}
+.card{
+    background-color: #FAFAFA;
+}
+.testimonios h2{
+    font-size: 40px;
+}
+.testimonios h3{
+    font-weight: 700;
+    color: #3F4868;
+}
+.testimonios p{
+    font-weight: 600;
+    color: #B9B9C1;
+}
+.title{
+    font-weight: 700;
+}
+footer{
+    font-weight: 400;
+    font-size: 16px;
+}
+.about h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+.backVioleta h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+/* ACA COMIENZA EL DESARROLLO **/
+
+/*** HEADER ***/
+
+header{
+    align-items: center; 
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 4.274rem 2.814rem  2.5rem 2.25rem;
+}
+header img{
+    margin-left: 30px;
+}
+.navBar{
+    display: none;
+}
+.boton1{
+    display: none;
+}
+header i{
+    font-size: 3rem;
+}
+/* MAIN */
+/*** PRIMER SECCION DE CONTENIDO "Bienvenida" ***/
+.bienvenida{
+    width: 100vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imagenGraficos{
+    width: 27.438rem;
+    padding-bottom: 13.75rem;
+    padding-left: 1rem;
+    align-items: center;
+}
+.bienvenida div{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bienvenida p{
+    padding: 28px 65px;
+}
+
+/*** SEGUNDA SECCION "Nosotros" ***/
+.about{
+    text-align: center;
+    padding-top: 7.625rem;
+    padding-bottom: 6.438rem;
+}
+
+/*** TERCERA SECCION LISTA ***/
+.listas{
+    padding-left: 34px;
+}
+.listas h3{
+    border-radius: 30px;
+}
+.listaBoton1::before{
+    background: #8B48BF;
+    border-radius: 20px;
+    color: #ffefea;
+    content: '01';
+    display: inline-block;
+    font-size: 1rem; 
+    height: 20px;
+    margin-right: 1rem;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}
+.listaBoton2::before{
+    background: #8B48BF;
+    border-radius: 20px;
+    color: #ffefea;
+    content: '02';
+    display: inline-block;
+    font-size: 1rem; 
+    height: 20px;
+    margin-right: 1rem;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}
+.listaBoton3::before{
+    background: #8B48BF;
+    border-radius: 20px;
+    color: #ffefea;
+    content: '03';
+    display: inline-block;
+    font-size: 1rem; 
+    height: 20px;
+    margin-right: 1rem;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+}
+.listas p{
+    width: 25.5rem;
+    line-height: 25.52px;
+    padding-top: 31px;
+    padding-bottom: 30px;
+}
+/*** TESTIMONIOS ***/
+.testimonios{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Anisha{
+    display: none;
+}
+.Richard{
+    display: none;
+}
+.card{
+    margin: 109px 18px 45px 18px;
+    padding: 0px 28px 30px 28px;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -2rem;
+}
+.card h3{
+    padding-top: 0px;
+    padding-bottom: 1rem;
+}
+/*** BACKGROUND VIOLETA ***/
+.backVioleta{
+    margin-top: 77px;
+    padding: 40px 80px;
+    text-align: center;
+}
+.backVioleta h2{
+    padding-bottom: 50px;
+}
+/*** FOOTER ***/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.footerForm{
+    padding-top: 52px;
+    text-align: center;
+}
+input.formulario{
+    width: 308px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+}
+button.go{
+    width: 63px;
+    height: 42px;
+    margin-left: 1rem;
+}
+.navFooter{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    margin: 20px 16px 20px 0px;
+}
+.footerPosition{
+    width: 100vw;
+}
+.Pages ul li{
+    padding: 12px;
+}
+.footLista1{
+    margin-right: 75px;
+}
+.footLista2{
+    margin-left: 75px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100vw;
+}
+footer img{
+    width: 120px;
+    height: 24px;
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
+    padding: 50px;
+}
+@media screen and (min-width:1440px) {
+
+/* HEADER DESKTOP*/
+header{
+    padding: 90px;
+}
+.header img{
+    align-self: center;
+    margin-left: 50px;
+    width: auto;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+.navBar a{
+    padding: 28px;
+}
+.hambur{
+    display: none;
+}
+.boton1{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    color: white;
+    display: block;
+    font-size: 0.8rem;
+    padding: 12px 17px;
+    text-decoration: none;
+}
+/* BIENVENIDA */
+.bienvenida{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.bienvenida div{
+    text-align: left;
+    width: 440px;
+}
+.bienvenida div p{
+    padding-left: 0px;
+}
+
+/* MIDDLE */
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    text-align: left;
+    width: 433px;
+    padding-top: 0px;
+}
+.about p{
+    padding-top: 36px;
+    width: 337px;
+}
+.listas h3{
+    background: #F5F5F5;
+}
+.listas p{
+    padding-left: 66px;
+    padding-top: 18px;
+}
+
+/* TESTIMONIOS */
+
+.testimonios h2{
+    padding-top: 132px;
+}
+.card{
+    display: flex;
+}
+.Anisha{
+    display: inline-block
+}
+.Richard{
+    display: inline-block;
+}
+.card p{
+    width: 390px;
+}
+/* BACKGROUND VIOLETA */
+.backVioleta{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+}
+.backVioleta h2{
+    text-align: left;
+}
+
+/* FOOTER */
+footer{
+    display: flex;   
+}
+.footerPosition{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-around;
+}
+footer img{
+    position: relative;
+    right: 550px;
+    bottom: 200px;
+    width: 120.34px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+nav.redes{
+    width: 10vw;
+    padding-top: 160px;  
+}
+nav.redes i{
+    padding: 10px;
+}
+.footerP{
+    position: relative; 
+    right: 165px; 
+    bottom: 200px;
+    left: 450px;
+}
+
+}
